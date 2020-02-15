@@ -10,3 +10,5 @@ services:
     build: ./SimpleChatBot
     ports:
       - "3001:3001"
+    volumes:
+       - /home/MyPage/chatbot/data:/usr/src/app/data
