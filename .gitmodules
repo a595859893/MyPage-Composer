@@ -1,0 +1,6 @@
+[submodule "MyPage"]
+	path = MyPage
+	url = https://github.com/a595859893/MyPage.git
+[submodule "SimpleChatBot"]
+	path = SimpleChatBot
+	url = https://github.com/a595859893/SimpleChatBot.git
