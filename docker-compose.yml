@@ -4,8 +4,6 @@ services:
     build: ./MyPage
     ports:
       - "3000:3000"
-    # volumes:
-    #   - /home/MyPage/app:/usr/src/app
   chatbot:
     build: ./SimpleChatBot
     ports:
