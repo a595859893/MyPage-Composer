@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mypage:
+    build: .
+    ports:
+      - "3000:3000"
+    # volumes:
+    #   - /home/MyPage/app:/usr/src/app
