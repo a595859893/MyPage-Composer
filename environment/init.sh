@@ -7,6 +7,9 @@ sudo apt-get install bison ed gawk gcc libc6-dev make -y
 sudo apt-get install nginx -y
 sudo /usr/sbin/groupadd www
 sudo /usr/sbin/useradd -g www www
+# SSL证书
+sudo cp ../ssl.crt /etc/nginx/
+sudo cp ../ssl.key /etc/nginx/
 # 二级域名解析反向代理配置
 sudo cp ./chatbot.conf /etc/nginx/sites-enabled/
 sudo service nginx restart
