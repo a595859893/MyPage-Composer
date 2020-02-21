@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   mypage:
     build: ./MyPage
@@ -9,4 +9,8 @@ services:
     ports:
       - "3001:3001"
     volumes:
-       - /home/MyPage/chatbot/data:/usr/src/app/data
+      - /home/MyPage/chatbot/data:/usr/src/app/data
+  roller:
+    build: ./CardRoller
+    ports:
+      - "3002:3002"
