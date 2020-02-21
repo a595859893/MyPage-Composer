@@ -4,3 +4,6 @@
 [submodule "SimpleChatBot"]
 	path = SimpleChatBot
 	url = https://github.com/a595859893/SimpleChatBot.git
+[submodule "CardRoller"]
+	path = CardRoller
+	url = https://github.com/a595859893/CardRoller.git
