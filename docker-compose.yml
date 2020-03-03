@@ -14,3 +14,5 @@ services:
     build: ./CardRoller
     ports:
       - "3002:3002"
+    volumes:
+      - /home/MyPage/cardRoller/data:/usr/src/app/data
