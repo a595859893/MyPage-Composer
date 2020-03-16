@@ -1,2 +1,2 @@
 git submodule init
-git submodule update --rebase --merge
+git submodule update --rebase --merge --remote
