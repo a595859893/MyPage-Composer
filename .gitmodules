@@ -1,12 +1,12 @@
 [submodule "MyPage"]
 	path = MyPage
 	url = https://github.com/a595859893/MyPage.git
-    branch = origin/master
+    branch = master
 [submodule "SimpleChatBot"]
 	path = SimpleChatBot
 	url = https://github.com/a595859893/SimpleChatBot.git
-    branch = origin/master
+    branch = master
 [submodule "CardRoller"]
 	path = CardRoller
 	url = https://github.com/a595859893/CardRoller.git
-    branch = origin/master
+    branch = master
