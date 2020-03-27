@@ -1,2 +1,2 @@
-ssl.crt
-ssl.key
+*.crt
+*.key

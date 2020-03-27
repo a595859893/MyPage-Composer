@@ -8,8 +8,10 @@ sudo apt-get install nginx -y
 sudo /usr/sbin/groupadd www
 sudo /usr/sbin/useradd -g www www
 # SSL证书
-# sudo cp ../ssl.crt /etc/nginx/
-# sudo cp ../ssl.key /etc/nginx/
+sudo cp ../api.crt /etc/nginx/
+sudo cp ../api.key /etc/nginx/
+sudo cp ../www.crt /etc/nginx/
+sudo cp ../www.key /etc/nginx/
 # 二级域名解析反向代理配置
 sudo cp ./chatbot.conf /etc/nginx/sites-enabled/
 sudo service nginx restart
