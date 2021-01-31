@@ -12,6 +12,8 @@ sudo cp ../api.crt /etc/nginx/
 sudo cp ../api.key /etc/nginx/
 sudo cp ../www.crt /etc/nginx/
 sudo cp ../www.key /etc/nginx/
+sudo cp ../docs.crt /etc/nginx/
+sudo cp ../docs.key /etc/nginx/
 # 二级域名解析反向代理配置
 sudo cp ./page.conf /etc/nginx/sites-enabled/
 sudo service nginx restart
